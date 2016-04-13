@@ -10,6 +10,6 @@ na_grid(d)
 \item{d}{A data frame}
 }
 \description{
-Checks for NAs in every column of a dataframe, visualizing them using ggplot's raster mode
+Checks for NAs in every column of a dataframe, visualizing them using ggplot's raster mode. Exclusively NA columns will be rendered translucent.
 }
 
