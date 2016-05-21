@@ -3,6 +3,7 @@
 #' @param d Data frame
 #' @param name Quoted column name
 #' @param uid Quoted column name of unique id
+#' @export
 unique_per <- function(d, name, uid = names(d)[1]) {
 
   multiples <- dplyr::filter(dplyr::count_(dplyr::distinct(dplyr::select_(d, uid, name)), uid), n > 1)

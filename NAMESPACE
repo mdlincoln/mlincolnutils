@@ -3,3 +3,4 @@
 export(doc_data)
 export(ggsave_all)
 export(na_grid)
+export(unique_per)
