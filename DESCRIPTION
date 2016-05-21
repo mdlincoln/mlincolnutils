@@ -4,11 +4,12 @@ Title: Everyday utility functions
 Version: 0.1.0
 Authors@R: person("Matthew", "Lincoln", email = "matthew.d.lincoln@gmail.com", role = c("aut", "cre"))
 Description: Utility functions that I use day-to-day.
-Suggests:
+Imports:
     clipr,
     dplyr,
     tidyr,
-    ggplot2
+    ggplot2,
+    purrr
 License: MIT
 LazyData: TRUE
 RoxygenNote: 5.0.1
